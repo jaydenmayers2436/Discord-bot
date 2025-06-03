@@ -32,6 +32,7 @@ class AffiliateBot(commands.Bot):
         self.add_cog(AffiliateCommands(self))
         self.add_cog(AICommands(self))
         self.add_cog(AnalyticsCommands(self))
+        self.add_cog(HelpCommands(self))
         
         logger.info("✅ Bot client initialized with all command groups")
     
