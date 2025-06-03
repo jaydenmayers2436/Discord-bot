@@ -11,6 +11,7 @@ from typing import Optional
 from bot.commands.affiliate_commands import AffiliateCommands
 from bot.commands.ai_commands import AICommands
 from bot.commands.analytics_commands import AnalyticsCommands
+from bot.commands.help_commands import HelpCommands
 from bot.core.database import Database
 from bot.services.groq_service import GroqService
 from bot.services.affiliate_service import AffiliateService
